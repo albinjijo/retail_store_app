@@ -6,17 +6,17 @@ import java.util.Comparator;
 public class ComparatorUtil {
 
     public static Comparator<Product> priceAsc() {
-        // Step 1: Return comparator that sorts by price ascending
+        // Return comparator that sorts by price ascending
         return null;
     }
 
     public static Comparator<Product> priceDesc() {
-        // Step 1: Return comparator that sorts by price descending
+        // Return comparator that sorts by price descending
         return null;
     }
 
     public static Comparator<Product> nameAsc() {
-        // Step 1: Return comparator that sorts by name (A–Z)
+        // Return comparator that sorts by name 
         return null;
     }
 }

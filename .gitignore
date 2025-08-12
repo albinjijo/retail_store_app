@@ -1,18 +1,7 @@
 
-*.class
-
 bin/
-
-*.env
-
-*.properties
-
-*.log
-*.DS_Store
-
 
 .project
 .classpath
 .settings/
 
-lib/

@@ -11,23 +11,17 @@ public class RetailStoreApp {
     public static void main(String[] args) {
         ProductController productController = new ProductController();
 
-        // 1. Add a product
-        // Create a category object and fill details
-        // Save via controller and store response
-        Response<Boolean> addProductResponse = productController.addProduct(null); // pass product instance
-        // Use addProductResponse to show result
+        // 1. Add product
+        
+        Response<Boolean> addProductResponse = productController.addProduct(null);
 
-        // 2. Show all products
-        Response<List<Product>> viewAllResponse = productController.viewAllProducts();
-        // Use viewAllResponse to display products
+        // 2. View all products
+        Response<List<Product>> viewAllProductsResponse = productController.viewAllProducts();
 
-        // 3. Show products by category
-        Response<List<Product>> productCategoryResponse = productController.viewProductsByCategory("categoryName");
-        // Use productCategoryResponse to display category results
+        // 3. view products by category
+        Response<List<Product>> viewProductsByCategoryResponse = productController.viewProductsByCategory("categoryName");
 
         // 4. Sort products
-        // Pick comparator (priceAsc, priceDesc, nameAsc) and pass to sortProducts
-        Response<List<Product>> sortProductResponse = productController.sortProducts(null); // pass comparator
-        // Use sortProductResponse to display sorted list
+        Response<List<Product>> sortProductsResponse = productController.sortProducts(null); 
     }
 }

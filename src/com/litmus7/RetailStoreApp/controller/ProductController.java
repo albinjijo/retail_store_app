@@ -11,27 +11,26 @@ public class ProductController {
 	ProductService productService=new ProductService();
 	
     public Response<Boolean> addProduct(Product product) {
-        // Step 1: Validate user input
-        // Step 2: Call service to add product
-    	// Step 3: Return response.
+        //  1: Validate user input
+        //  2: Call addproduct function in service class
         return null;
     }
 
     public Response<List<Product>> viewAllProducts() {
-        // Step 1: Call service to get all products
-    	// Step 2: Return response
+        //  1: Call viewAllProducts in service class
+    	//  2: Return response
         return null;
     }
 
     public Response<List<Product>> viewProductsByCategory(String category) {
-        // Step 1: Call service to get category products
-    	// Step 2: Return response
+        //  1: Call viewProductsbycategory in service class
+    	//  2: Return response
         return null;
     }
 
     public Response<List<Product>> sortProducts(Comparator<Product> comparator) {
-        // Step 1: Call service to sort products
-    	// Step 2: Return response
+        //  1: Call sortproducts in service class
+    	//  2: Return response
         return null;
     }
 }
